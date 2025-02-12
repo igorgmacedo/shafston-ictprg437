@@ -1,3 +1,8 @@
 document.getElementById('testButton').addEventListener('click', function() {
-    document.getElementById('output').innerText = 'Button was clicked!';
-})
+    let output = document.getElementById('output');
+    if (output.innerText === 'Button was clicked!') {
+        output.innerText = '';
+    } else {
+        output.innerText = 'Button was clicked!';
+    }
+});
