@@ -9,13 +9,13 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: red;
-  background: yellow;
+  color: white;
+  background: #D13426;
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: white;
+  background: #D13426;
 }
 
 .container {
