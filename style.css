@@ -8,6 +8,16 @@ body {
     background-color: #f0f0f0;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
 .container {
     text-align: center;
     background-color: #fff;
@@ -35,10 +45,12 @@ p {
     margin-top: 20px;
     font-size: 18px;
 }
+
 .responsive {
   width: 100%;
   height: auto;
 }
+
 .logosmall{
     width: 150px !important;
 }
